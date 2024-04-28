@@ -1,0 +1,488 @@
+.div {
+    align-self: stretch;
+
+    display: flex;
+    max-width: 360px; /* Reduced from 480px */
+    width: 100%;
+    flex-direction: column;
+    font-size: 14px;
+    color: var(--dark-grey, #74747c);
+    font-weight: 700;
+    letter-spacing: -0.28px;
+    line-height: 130%;
+
+    padding: 20px;
+    padding-bottom: 100px; /* change this to make the tail longer */
+    box-sizing: border-box; /* Make sure padding doesn't affect the width calculation */
+    height: 100%;
+  }
+  
+  .div, .div * {
+    box-sizing: border-box; /* Include padding and borders in the width and height */
+  }
+  
+  .div-2 {
+
+    border-radius: 10px;
+    border-color: rgba(236, 238, 241, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: var(--white, #fff);
+    display: flex;
+    gap: 8px;
+    padding: 8px 16px;
+  }
+  .img {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 20px;
+  }
+  .div-3 {
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Satoshi Variable, -apple-system, Roboto, Helvetica,
+      sans-serif;
+    flex: 1;
+    margin: auto 0;
+  }
+  .div-4 {
+    justify-content: space-between;
+    display: flex;
+    margin-top: 25px;
+    gap: 8px;
+    font-size: 16px;
+    letter-spacing: -0.32px;
+  }
+  .div-5 {
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Satoshi Variable, -apple-system, Roboto, Helvetica,
+      sans-serif;
+    margin: auto 0;
+  }
+  .div-6 {
+    align-self: center;
+    display: flex;
+    gap: 8px;
+    color: var(--black, #0f0a09);
+    white-space: nowrap;
+    text-align: center;
+    margin: 12px 0 0 -11px;
+  }
+  .div-7 {
+    border-radius: 10px;
+    border-color: rgba(236, 238, 241, 1);
+  
+    border-style: solid;
+    border-width: 2px;
+    background-color: var(--white, #fff);
+    display: flex;
+    gap: 8px;
+    padding: 8px 16px;
+    font-weight: 700;
+  
+  }
+  button {
+    cursor: pointer;
+  }
+  .div-8 {
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Satoshi Variable, -apple-system, Roboto, Helvetica,
+      sans-serif;
+    margin: auto 0;
+  
+  
+  }
+  .div-9 {
+    border-radius: 10px;
+    border-color: rgba(236, 238, 241, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: var(--white, #fff);
+    display: flex;
+    gap: 8px;
+    padding: 8px 16px;
+    font-weight: 700;
+  
+  
+  
+  }
+  .div-10 {
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Satoshi Variable, -apple-system, Roboto, Helvetica,
+      sans-serif;
+    margin: auto 0;
+  }
+  .div-11 {
+    align-self: center;
+    display: flex;
+    gap: 5px;
+    color: var(--black, #0f0a09);
+    white-space: nowrap;
+    text-align: center;
+    margin: 8px 0 0 -11px;
+  
+  
+  }
+  .div-12 {
+    display: flex;
+    flex-direction: column;
+  }
+  .div-13 {
+    border-radius: 10px;
+    border-color: rgba(236, 238, 241, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: var(--white, #fff);
+    display: flex;
+    gap: 8px;
+    padding: 8px 16px;
+    font-weight: 700;
+  
+  }
+  .div-14 {
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Satoshi Variable, -apple-system, Roboto, Helvetica,
+      sans-serif;
+    margin: auto 0;
+  }
+  .div-15 {
+    border-radius: 10px;
+    border-color: rgba(236, 238, 241, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: var(--white, #fff);
+    display: flex;
+    margin-top: 8px;
+    gap: 8px;
+    padding: 8px 16px;
+    font-weight: 700;
+  
+  }
+  .div-16 {
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Satoshi Variable, -apple-system, Roboto, Helvetica,
+      sans-serif;
+    margin: auto 0;
+  }
+  .div-17 {
+    display: flex;
+    flex-direction: column;
+  }
+  .div-18 {
+    border-radius: 10px;
+    border-color: rgba(236, 238, 241, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: var(--white, #fff);
+    display: flex;
+    gap: 8px;
+    padding: 8px 16px;
+    font-weight: 700;
+  
+  }
+  .div-19 {
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Satoshi Variable, -apple-system, Roboto, Helvetica,
+      sans-serif;
+    margin: auto 0;
+  }
+  .div-20 {
+    border-radius: 10px;
+    border-color: rgba(236, 238, 241, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: var(--white, #fff);
+    display: flex;
+    margin-top: 8px;
+    gap: 8px;
+    padding: 8px 16px;
+    font-weight: 700;
+  
+  }
+  .div-21 {
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Satoshi Variable, -apple-system, Roboto, Helvetica,
+      sans-serif;
+    margin: auto 0;
+  }
+  .div-22 {
+    justify-content: space-between;
+    display: flex;
+    margin-top: 25px;
+    gap: 8px;
+    font-size: 16px;
+    letter-spacing: -0.32px;
+    margin-bottom: 20px;
+  
+  }
+  .div-23 {
+    
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Satoshi Variable, -apple-system, Roboto, Helvetica,
+      sans-serif;
+    margin: auto 0;
+    
+  }
+  .div-24 {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    border-radius: 10px;
+    border: 1px solid rgba(236, 238, 241, 1);
+    background-color: var(--white, #fff);
+    color: var(--black, #0f0a09);
+    width: 100%;
+  }
+  
+  .radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .radio-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* This spreads the items to each end */
+    width: 100%; /* Ensures the label takes full width of its container */
+  }
+  
+  .radio-input {
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1.5px solid rgba(215, 215, 222, 1); /* Adjusted border style for clarity */
+    outline: none;
+    appearance: none;
+    background: var(--white, #fff);
+    cursor: pointer;
+  }
+  
+  .radio-input:checked {
+    background: var(--white, #fff); /* Ensures that the background is white */
+    border: 6.5px solid rgba(30, 93, 255, 1); /* Blue border for checked state */
+  }
+  
+  .radio-input:checked::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px; /* Adjust size as needed */
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--white, #fff); /* White center */
+  }
+  
+  
+  .radio-text {
+    flex: 1; /* Allows text to take up the available space, pushing the radio button to the end */
+    font-family: Satoshi Variable, -apple-system, Roboto, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 130%;
+    font-size: 14px;
+    margin-right: 8px; /* Adds some spacing between the text and the radio button */
+  }
+  
+  .div-37 {
+    justify-content: center;
+    display: flex;
+    margin-top: 12px;
+    gap: 8px;
+  }
+  .div-38 {
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Satoshi Variable, -apple-system, Roboto, Helvetica,
+      sans-serif;
+    border-radius: 10px;
+    border-color: rgba(236, 238, 241, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: var(--white, #fff);
+    justify-content: center;
+    flex: 1;
+    padding: 8px 16px;
+  }
+  .div-39 {
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Satoshi Variable, -apple-system, Roboto, Helvetica,
+      sans-serif;
+    margin: auto 0;
+  }
+  .div-40 {
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Satoshi Variable, -apple-system, Roboto, Helvetica,
+      sans-serif;
+    border-radius: 10px;
+    border-color: rgba(236, 238, 241, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: var(--white, #fff);
+    justify-content: center;
+    flex: 1;
+    padding: 8px 16px;
+  }
+  .div-41 {
+    leading-trim: both;
+    text-edge: cap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 0;
+    background-color: var(--light, #eceef1);
+    margin-top: 12px;
+    color: var(--black, #0f0a09);
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: -0.32px;
+    padding: 6px 16px;
+    font: 16px Satoshi Variable, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  
+  
+  
+  color: #74747c;
+  font-weight: 700;
+  
+  
+  
+  }
+  .div-42 {
+    justify-content: space-between;
+    display: flex;
+    margin-top: 25px;
+    gap: 8px;
+    font-size: 16px;
+    white-space: nowrap;
+    letter-spacing: -0.32px;
+  }
+  .div-43 {
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Satoshi Variable, -apple-system, Roboto, Helvetica,
+      sans-serif;
+    margin: auto 0;
+  }
+  .div-44 {
+    justify-content: space-between;
+    display: flex;
+    margin-top: 25px;
+    gap: 8px;
+    font-size: 16px;
+    white-space: nowrap;
+    letter-spacing: -0.32px;
+  }
+  .div-45 {
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Satoshi Variable, -apple-system, Roboto, Helvetica,
+      sans-serif;
+    margin: auto 0;
+  }
+  
+  
+  
+  
+  .input {
+    width: 100%; /* Set width of the input */
+    height: 34px; /* Adjusted height for visual balance */
+    padding-left: 30px; /* Padding to avoid text overlapping the image */
+    background-image: url('https://cdn.builder.io/api/v1/image/assets/TEMP/adf9777c6290b7bdb3cec66d3b6f2425360ed578311629c0dcb2c0359542b666?apiKey=2f8bf3435d9d4c40a340203ca27ec7bb&');
+    background-position: 8px center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    border: 0;
+    outline: none;
+    font-family: 'Satoshi Variable', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px; /* Using the pixel value for line-height */
+    letter-spacing: -0.02em;
+    color: #74747C; /* Color for input text */
+    flex: none;
+    order: 1;
+    flex-grow: 0; /* Flex grow set to 0 as specified */
+  }
+  
+  .input::placeholder { /* Specific styles for placeholder */
+    font-family: 'Satoshi Variable', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px; /* Using the pixel value for line-height */
+    letter-spacing: -0.02em;
+    color: #74747C; /* Color for placeholder text */
+  }
+  
+  
+  .combined-div {
+  
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 12px;
+  gap: 12px;
+  
+  }
+  
+  .div-37 {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 12px;
+  }
+  
+  .div-38, .div-40 {
+    background-color: var(--white, #fff);
+    border-radius: 10px;
+    border: 1px solid rgba(236, 238, 241, 1);
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    font-family: Satoshi Variable, -apple-system, Roboto, Helvetica, sans-serif;
+    font-size: 14px;
+  }
+  
+  .input-date {
+    border: none;
+    outline: none;
+    width: 100%;
+    background-color: transparent;
+    margin-left: 10px;
+    font-family: Satoshi Variable, -apple-system, Roboto, Helvetica, sans-serif;
+    color: #74747c; /* Use a color that fits the theme */
+    font-size: 14px;
+  
+    font-weight: 700;
+  }
+  
+  .div-39 {
+    align-self: center; /* Center 'To' vertically */
+    font-family: Satoshi Variable, -apple-system, Roboto, Helvetica, sans-serif;
+    font-size: 14px;
+  }
+  
+  
+  
+
+  .div-6, .div-11, .div-17 {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap; /* This will allow buttons to wrap onto the next line */
+
+  }
+  
