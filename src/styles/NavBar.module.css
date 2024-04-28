@@ -1,0 +1,351 @@
+.div {
+    background-color: var(--blue, #1e5dff);
+    display: flex;
+    gap: 16px;
+    text-align: center;
+    line-height: 130%;
+    justify-content: space-between;
+    padding: 15px 20px;
+
+  }
+  @media (max-width: 991px) {
+    .div {
+      flex-wrap: wrap;
+    }
+  }
+  .div-2 {
+    display: flex;
+    gap: 18px;
+    font-size: 14px;
+    color: var(--dark-grey, #74747c);
+    font-weight: 500;
+    letter-spacing: -0.14px;
+  }
+  @media (max-width: 991px) {
+    .div-2 {
+      flex-wrap: wrap;
+    }
+  }
+
+  .logo-box {
+    display: flex;
+
+
+  }
+  .logo {
+    aspect-ratio: 4.55;
+    object-fit: auto;
+    object-position: center;
+    width: 148px;
+    max-width: 100%;
+    margin: auto 0;
+  }
+  .search-bar {
+    border-radius: 10px;
+    border-color: rgba(215, 215, 222, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: var(--white, #fff);
+    display: flex;
+    gap: 8px;
+    flex: 3.6;
+    padding: 8px 12px;
+  }
+  @media (max-width: 991px) {
+    .search-bar {
+      flex-wrap: wrap;
+    }
+  }
+
+  .empty-block {
+    display: flex;
+    gap: 8px;
+    flex: 1;
+
+
+  }
+  .magnifying-glass {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 16px;
+  }
+  .search-text {
+
+width: 235px;
+
+
+font-family: 'Satoshi Variable';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 130%;
+
+leading-trim: both;
+text-edge: cap;
+text-align: center;
+letter-spacing: -0.01em;
+
+color: #74747C;
+
+
+
+flex: none;
+order: 1;
+flex-grow: 0;
+
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Satoshi Variable, -apple-system, Roboto, Helvetica,
+      sans-serif;
+    margin: auto 0;
+  }
+  @media (max-width: 991px) {
+    .div-4 {
+      max-width: 100%;
+    }
+  }
+  .div-5 {
+    display: flex;
+    gap: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.32px;
+    justify-content: space-between;
+  }
+  @media (max-width: 991px) {
+    .div-5 {
+      flex-wrap: wrap;
+    }
+  }
+  .nav-link {
+    display: flex;
+    gap: 8px;
+    color: var(--light, #eceef1);
+    white-space: nowrap;
+  }
+  @media (max-width: 991px) {
+    .nav-link {
+      white-space: initial;
+    }
+  }
+  .div-7 {
+    justify-content: center;
+    border-radius: 10px;
+    display: flex;
+    gap: 6px;
+    padding: 6px 8px;
+  }
+  @media (max-width: 991px) {
+    .div-7 {
+      white-space: initial;
+    }
+  }
+  .img-3 {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 16px;
+  }
+  .div-8 {
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Satoshi Variable, -apple-system, Roboto, Helvetica,
+      sans-serif;
+    margin: auto 0;
+    font-weight: 700;
+  }
+  .div-9 {
+    justify-content: center;
+    border-radius: 10px;
+    display: flex;
+    gap: 6px;
+    padding: 6px 8px;
+  }
+  @media (max-width: 991px) {
+    .div-9 {
+      white-space: initial;
+    }
+  }
+  .img-4 {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 16px;
+  }
+  .div-10 {
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Satoshi Variable, -apple-system, Roboto, Helvetica,
+      sans-serif;
+    margin: auto 0;
+    font-weight: 700;
+
+    
+  }
+  .div-11 {
+    justify-content: center;
+    border-radius: 10px;
+    display: flex;
+    gap: 6px;
+    padding: 6px 8px;
+  }
+  @media (max-width: 991px) {
+    .div-11 {
+      white-space: initial;
+    }
+  }
+  .img-5 {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 16px;
+  }
+  .div-12 {
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Satoshi Variable, -apple-system, Roboto, Helvetica,
+      sans-serif;
+    margin: auto 0;
+font-weight: 700;
+
+  }
+  .div-13 {
+    justify-content: center;
+    border-radius: 10px;
+    display: flex;
+    gap: 6px;
+    padding: 6px 8px;
+    
+  }
+  @media (max-width: 991px) {
+    .div-13 {
+      white-space: initial;
+    }
+  }
+  .img-6 {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 16px;
+  }
+  .div-14 {
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Satoshi Variable, -apple-system, Roboto, Helvetica,
+      sans-serif;
+    margin: auto 0;
+font-weight: 700;
+
+  }
+
+  .div-15 {
+    display: flex;
+    padding-right: 12px;
+    gap: 8px;
+    color: var(--white, #fff);
+    justify-content: space-between;
+  }
+  .div-16 {
+    display: flex;
+    gap: 8px;
+  }
+
+  .img-7 {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 16px;
+    margin: auto 0;
+  }
+
+
+  button {
+    cursor: pointer;
+    border: none; /* Removes default button border */
+    outline: none; /* Removes default focus outline */
+  }
+
+
+  .create-button, .log-in-button, .sign-up-button {
+    cursor: pointer;
+    font-family: 'Satoshi Variable', -apple-system, Roboto, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 16px; /* Adjust as needed */
+    text-align: center;
+    border-radius: 10px;
+    padding: 3px 16px; /* Adjust padding to control the size */
+    outline: none;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s; /* Smooth transition for interactive feedback */
+  }
+  
+  .create-button {
+    background-color: var(--pink, #ff1e6f);
+    color: white; /* Ensures text color is white */
+  }
+  
+  .create-button:hover, .create-button:focus {
+    background-color: #e6005c; /* Slightly darker pink for hover/focus */
+  }
+  
+  .log-in-button {
+    background-color: var(--white, #fff);
+    color: var(--blue, #1e5dff); /* Blue text color */
+    border: 1px solid var(--blue, #1e5dff);
+  }
+  
+  .log-in-button:hover, .log-in-button:focus {
+    background-color: #e6f4ff; /* Light blue background on hover/focus */
+    border-color: #1a80ff; /* Slightly darker border color for hover/focus */
+  }
+  
+  .sign-up-button {
+    background-color: var(--blue, #1e5dff);
+    color: white; /* Ensures text color is white */
+    border: 2px solid #FFFFFF;
+  }
+  
+  .sign-up-button:hover, .sign-up-button:focus {
+    background-color: #0056b3; /* Darker blue for hover/focus */
+    border-color: #ffffff; /* Keeps white border on hover/focus */
+  }
+  
+
+  .input {
+    border: 0px solid #ccc; /* Light grey border */
+    padding: 3px 12px; /* Adequate padding for text input */
+    font-size: 14px; /* Match your design specs */
+    width: 100%; /* Full width within its container */
+    box-sizing: border-box; /* Includes padding and border in the element's width */
+    color: #74747C; /* Color for input text */
+    outline: none;
+
+  }
+  
+  .div-7, .div-9, .div-11, .div-13 {
+    background: none; /* No background to make it look like a regular div */
+    border: none; /* No border */
+    color: inherit; /* Inherits text color from parent */
+    text-align: left; /* Align text to the left */
+    padding: 6px 8px; /* Padding like a regular div */
+    display: flex;
+    align-items: center;
+    gap: 6px; /* Space between icon and text */
+    font-weight: 700;
+
+  }
+  
+  button {
+    cursor: pointer; /* Mouse cursor becomes pointer to indicate clickable */
+  }
+
+  .img-7-button {
+    border: none; /* Removes the default button border */
+  background: none; /* Removes the default button background */
+
+  cursor: pointer; /* Ensures it looks clickable */
+  padding-top: 10px; /* Adds margin at the top */
+
+  padding-bottom: 10px; /* Adds margin at the bottom */
+  padding-left: 15px; /* Adds margin to the left */
+  }
