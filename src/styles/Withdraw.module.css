@@ -1,0 +1,243 @@
+.deposit-card {
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 10px 24px -12px rgba(15, 10, 9, 0.22);
+    border: 2px solid rgba(30, 93, 255, 1);
+    background-color: var(--white, #fff);
+    display: flex;
+    max-width: 400px;
+    padding-bottom: 20px;
+    flex-direction: column;
+    line-height: 132%;
+  }
+
+  .card-header-label {
+    text-align: left;
+    padding-left: 17px;
+
+  }
+
+  .card-header {
+    border-bottom: 1px solid rgba(236, 238, 241, 1);
+    width: 100%;
+    color: var(--black, #0f0a09);
+    white-space: nowrap;
+    letter-spacing: -0.36px;
+    text-align: left;
+    padding: 20px;
+    padding-left: 0px;
+
+    padding-right: 0px;
+    font: 700 18px Satoshi Variable, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+
+  .amount-label {
+    color: var(--black, #0f0a09);
+    letter-spacing: -0.28px;
+    padding-left: 17px;
+    margin: 20px auto 0 0;
+    font: 700 14px Satoshi Variable, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+
+  .deposit-amount {
+    justify-content: space-between;
+    border-radius: 16px;
+    border: 1px solid rgba(215, 215, 222, 1);
+    background-color: var(--white, #fff);
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 360px;
+    gap: 8px;
+    line-height: 128%;
+    padding: 12px;
+  }
+
+  .amount {
+    color: var(--USDs-900, #3e403f);
+    letter-spacing: -0.24px;
+    align-self: start;
+    margin-top: 12px;
+    font: 700 24px Satoshi Variable, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+
+  .balance-info {
+    display: flex;
+    padding-left: 80px;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .balance {
+    color: var(--zkEVM-800, #171129);
+    font: 400 12px Neue Haas Grotesk Text Pro, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+
+  .balance .label {
+    font-family: Satoshi Variable, sans-serif;
+    font-weight: 500;
+    color: rgba(152, 150, 158, 1);
+    
+  }
+
+  .balance .value {
+    font-family: Satoshi Variable, sans-serif;
+    font-weight: 500;
+  }
+
+  .currency-info {
+    display: flex;
+    margin-top: 4px;
+    gap: 6px;
+    font-size: 14px;
+    color: var(--dark-grey, #74747c);
+    font-weight: 500;
+    white-space: nowrap;
+    text-align: center;
+  }
+
+  .max-button {
+    font-family: Satoshi Variable, -apple-system, Roboto, Helvetica, sans-serif;
+    border-radius: 8px;
+    background-color: var(--light, #eceef1);
+    justify-content: center;
+    padding: 4px 6px;
+    color: #74747C;
+font-weight: 500;
+
+  }
+
+  
+
+  .currency {
+    border-radius: 8px;
+    background-color: var(--light, #eceef1);
+    display: flex;
+    gap: 4px;
+    padding: 4px 6px;
+  }
+
+  .disconnect-wrapper {
+    border-radius: 8px;
+    background-color: var(--light, #eceef1);
+    display: flex;
+    gap: 4px;
+    padding: 4px 6px;
+  }
+
+  .currency-icon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    width: 16px;
+    align-self: start;
+  }
+
+  .currency-code {
+    font-family: Satoshi Variable, -apple-system, Roboto, Helvetica, sans-serif;
+font-weight: 500;
+
+  }
+
+  .disconnect-code {
+    font-family: Satoshi Variable, -apple-system, Roboto, Helvetica, sans-serif;
+
+
+font-size: 14px;
+
+text-align: center;
+
+color: #74747C;
+
+  }
+
+  .address-label {
+    color: var(--black, #0f0a09);
+    letter-spacing: -0.28px;
+    padding-left: 17px;
+    margin: 16px auto 0 0;
+    font: 700 14px Satoshi Variable, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+
+  .address-value {
+    align-items: start;
+    border-radius: 8px;
+    border: 1px solid rgba(215, 215, 222, 1);
+    background-color: var(--white, #fff);
+    margin-top: 10px;
+    width: 360px;
+    max-width: 100%;
+    color: var(--dark-grey, #74747c);
+    white-space: nowrap;
+    letter-spacing: -0.14px;
+    text-align: left;
+    padding: 11px 12px;
+    font: 700 14px/128% Satoshi Variable, -apple-system, Roboto, Helvetica, sans-serif;
+
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+
+  .deposit-button {
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: var(--blue, #1e5dff);
+    margin-top: 16px;
+    width: 100%;
+    max-width: 360px;
+    color: var(--white, #fff);
+    white-space: nowrap;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: -0.32px;
+    padding: 6px 16px;
+    font: 700 16px/130% Satoshi Variable, -apple-system, Roboto, Helvetica, sans-serif;
+    border: none;
+    cursor: pointer;
+  }
+
+  .terms-notice {
+    color: var(--dark-grey, #74747c);
+    letter-spacing: -0.28px;
+    margin-top: 16px;
+    font: 500 14px Satoshi Variable, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+
+  .terms-notice .underline {
+    text-decoration: underline;
+  }
+
+
+  
+  .deposit-amount .amount input {
+    font: 700 24px Satoshi Variable, -apple-system, Roboto, Helvetica, sans-serif; /* Large text size */
+    color: var(--USDs-900, #3e403f); /* Text color */
+    border: none; /* Remove border */
+    outline: none; /* Remove focus outline */
+    width: 100%; /* Full width */
+    background-color: transparent; /* Transparent background */
+    text-align: left; /* Center text */
+}
+
+/* To hide the up and down arrows*/
+.deposit-amount .amount input::-webkit-outer-spin-button,
+.deposit-amount .amount input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.deposit-amount .amount input[type=number] {
+  -moz-appearance: textfield; /* Removes the spin box */
+}
+
+
+.address-input input {
+    font: 700 14px/128% Satoshi Variable, -apple-system, Roboto, Helvetica, sans-serif;
+
+    color: var(--USDs-900, #3e403f); /* Text color */
+    border: none; /* Remove border */
+    outline: none; /* Remove focus outline */
+    width: 100%; /* Full width */
+    background-color: transparent; /* Transparent background */
+    text-align: left; /* Center text */
+}

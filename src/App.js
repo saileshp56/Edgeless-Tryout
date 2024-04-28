@@ -5,6 +5,10 @@ import Landing from "./components/Landing"
 import SideBar from "./components/SideBar"
 import MarketsNavBar from "./components/MarketsNavBar"
 import Home from "./components/Home"
+import Withdraw from "./components/Withdraw"
+import Deposit from "./components/Deposit"
+
+
 
 
 
@@ -18,7 +22,10 @@ const App = () => {
       {/* <NavBar /> */}
       {/* <SideBar /> */}
       {/* <MarketsNavBar /> */}
-      <Home />
+      {/* <Home /> */}
+      <Withdraw />
+      <Deposit />
+
 
     </div>
   )
