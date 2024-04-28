@@ -3,6 +3,8 @@ import './App.css';
 import Landing from "./components/Landing"
 // import NavBar from "./components/NavBar"
 import SideBar from "./components/SideBar"
+import MarketsNavBar from "./components/MarketsNavBar"
+
 
 
 
@@ -12,7 +14,8 @@ const App = () => {
     <div>
       {/* <Landing/> */}
       {/* <NavBar /> */}
-      <SideBar />
+      {/* <SideBar /> */}
+      <MarketsNavBar />
 
     </div>
   )
